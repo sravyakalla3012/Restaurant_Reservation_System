@@ -1,0 +1,159 @@
+.thanking-customers-section {
+    background-color: #d0b2001a;
+  }
+  
+  .thanking-customers-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 70px;
+    font-weight: 700;
+  }
+  
+  .thanking-customers-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 40px;
+  }
+  
+  .thanking-customers-section-img {
+    width: 100%; /* Ensure it takes up the full width of its container */
+    max-width: 500px; /* Increase the maximum size of the image */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+  
+  
+  .button-container {
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Align buttons vertically */
+  gap: 40px; /* Add spacing between buttons */
+}
+
+.custom-button{
+    color: white;
+  background-color: #d0b200;
+  width: 200px;
+  height: 65px;
+  border-width: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover,
+.backToHomepageBtn:hover {
+  background-color: #b89e00;
+}
+  
+
+  .backToHomepageBtn {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 3%;
+    background: #fff;
+    width: 200px;
+    left: 40%;
+    padding: 15px 7.5px;
+    transition: 0.3s;
+    margin: 0 15px;
+    width: 96.7vw;
+    margin-right: 30px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+
+    color: white;
+    background-color: #d0b200;
+    width: 200px;
+    height: 70px;
+    border-width: 0;
+    border-radius: 8px;
+     /* Add vertical spacing */
+    margin-right: -50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    float: right; /* Align to the right */
+  }
+  
+  .custom-button:hover,
+  .backToHomepageBtn:hover {
+    background-color: #b89e00;
+  }
+  
+
+  .custom-button, .backToHomepageBtn {
+    color: white;
+    background-color: #d0b200;
+    width: 200px;
+    height: 65px;
+    border-width: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 22px; /* Increase the font size */
+    font-weight: 600; /* Set the font weight (increased for bolder text) */
+    text-align: center; /* Ensure the text is centered */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Increase the font size and make the text bolder on hover */
+  .custom-button:hover,
+  .backToHomepageBtn:hover {
+    background-color: #b89e00;
+  }
+
+
+  /* Added styles for Voucher Overlay */
+  .voucher-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .voucher-container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .voucher-container h5 {
+    color: #d0b200;
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 1rem;
+  }
+  
+  .voucher-image {
+    border-radius: 8px;
+    margin-top: 1rem;
+    max-width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .voucher-container .btn-secondary {
+    color: white;
+    background-color: #5a7184;
+    width: 100px;
+    height: 40px;
+    border-width: 0;
+    border-radius: 6px;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+  
+  .voucher-container .btn-secondary:hover {
+    background-color: #4a6073;
+  }
+  
