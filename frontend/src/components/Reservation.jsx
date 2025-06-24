@@ -17,11 +17,14 @@ const Reservation = () => {
   const [notes, setNotes] = useState("");
   const navigate = useNavigate();
 
+
+  const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
+
   const handleReservation = async (e) => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:4000/api/v1/reservation/send",
+        '${BACKEND_URL}/api/v1/reservation/send',
         {
           firstName,
           lastName,
